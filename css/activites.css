@@ -1,0 +1,137 @@
+/*Navbar*/
+.nav-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  font-size: 18px;
+}
+
+.top-half {
+  background: url("/img/bgpics.jpg") no-repeat 20% 30% / cover;
+  height: 6rem;
+  border-bottom: 4px solid #fe5258;
+}
+
+.logo {
+  color: white;
+}
+.navbar {
+  margin-right: 50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  float: left;
+  padding: 7px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*some body work*/
+.bottom-line {
+  height: 2px;
+  width: 5rem;
+  background: #fe5258;
+  display: block;
+  margin: 0 auto 1rem auto;
+  margin-top: 20px;
+}
+.aline {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.titletext {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.gridset {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imgs {
+  /* height: 100%;
+    width: 70%; */
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffc6c6;
+}
+
+.pics div {
+  padding: 40px;
+}
+
+.pics img {
+  width: 100%;
+}
+
+.sec2 p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.sec1 p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/*footter*/
+
+.footer {
+  margin-top: 0px;
+  background-color: #333;
+  width: 100%;
+  padding: 100px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  /*gap: 200px;*/
+  min-height: 10vh;
+}
+
+.footer a {
+  color: white;
+}
+
+.col-2 a {
+  display: block;
+}
+
+.fab {
+  padding: 20px;
+}
+
+.gridsett img {
+  height: 60%;
+  width: 60%;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.gridsett img:hover {
+  width: 80%;
+  height: 80%;
+}
